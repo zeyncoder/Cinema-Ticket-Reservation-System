@@ -39,7 +39,7 @@ public class Cinema {
             for (int j = 0; j < seats; j++) {
                 System.out.print(cinemaHall[i][j] + " ");
             }
-            System.out.println(); // hər sıradan sonra yeni sətir
+            System.out.println(); 
         }
     }
 
