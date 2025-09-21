@@ -54,7 +54,7 @@ public class Cinema {
         } else {
             int ticketPrice = calculateTicketPrice(row);
             System.out.println("Ticket price: " + ticketPrice + " AZN");
-            cinemaHall[row - 1][seat - 1] = "B"; // yeri tut
+            cinemaHall[row - 1][seat - 1] = "B"; 
             purchasedTickets++;
             currentIncome += ticketPrice;
         }
